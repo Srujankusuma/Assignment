@@ -1,0 +1,353 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.app-container {
+  background-color: #ffc0cb;
+  padding: 30px;
+  color: #2e275c;
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.addresss {
+  margin-top: 30px;
+}
+
+.profile-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile-logo {
+  height: 100px;
+  width: 100px;
+  border: 4px solid #2e275c;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+img {
+  height: 60px;
+}
+
+.icon {
+  font-size: 60px;
+}
+
+.pofile-heading {
+  font-size: 30px;
+}
+
+.line {
+  border: 2px solid #27224a;
+  margin-left: 150px;
+}
+
+.vertical-line {
+  height: 260px;
+  border: 2px solid #27224a;
+}
+
+.work-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.year-container {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 60px;
+}
+
+li {
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.awards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.award {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bg {
+  background-color: #2e275c;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 850px;
+}
+
+.intersets-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.education-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.schools {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 920px;
+}
+
+.edu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+}
+
+.school {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+}
+
+.mr {
+  margin-right: 110px;
+}
+
+@media screen and (max-width: 768px) {
+  .app-container {
+    min-width: 1000px;
+    background-color: #ffc0cb;
+  }
+
+  p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .addresss {
+    margin-top: 30px;
+  }
+
+  .profile-logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .profile-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+  }
+
+  .profile-logo {
+    height: 60px;
+    width: 60px;
+    border: 4px solid #2e275c;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  img {
+    height: 30px;
+  }
+
+  .icon {
+    font-size: 30px;
+  }
+
+  .pofile-heading {
+    font-size: 20px;
+  }
+
+  .line {
+    border: 2px solid #27224a;
+    margin-left: 150px;
+    width: 680px;
+  }
+
+  .vertical-line {
+    height: 260px;
+    border: 2px solid #27224a;
+  }
+
+  .work-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 850px;
+  }
+
+  .heading {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .year-container {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .skills-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 768px;
+  }
+
+  .skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40px;
+  }
+
+  li {
+    font-size: 40px;
+    margin-left: 20px;
+  }
+
+  .awards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .award {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .bg {
+    background-color: #2e275c;
+  }
+
+  .images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 550px;
+  }
+
+  .intersets-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 768px;
+  }
+
+  .education-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 768px;
+  }
+
+  .schools {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 600px;
+  }
+
+  .edu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+  }
+
+  .school {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+  }
+
+  .mr {
+    margin-right: 110px;
+  }
+}
